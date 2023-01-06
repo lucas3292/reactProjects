@@ -1,0 +1,111 @@
+.container-technology{
+    margin: 0 0;
+    height: 780px;
+}
+.fix{
+    height: 80px;
+    width: 0;
+}
+.drawer-matrix-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0.1% 0 0;
+    padding: 0 0 ;
+    list-style-type: none;
+}
+.vector-container-drawers{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.technology-drawer-background-container{
+    list-style-type: none;
+    display: flex;
+    max-height: 100px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.container-technology-drawer{
+    background-image:url("/src/assets/wood.jpg");
+    border: 2px solid black;
+    display: block;
+    
+}
+.technology-text-container{
+    background-image:url("/src/assets/paper.jpg");
+    margin: 0 4%;
+    overflow: hidden;
+}
+.technology-text-container h1{
+    margin: 3% 0;
+    font-size: 20px;
+    text-align: center;
+    font-family: mySecondFont;
+}
+.technology-text-container p{
+    margin: 1% 1%;
+    font-size: 18px;
+    word-break: break-word;
+    font-weight: 100;
+}
+.container-design-technology-drawers{
+    background-image:url("/src/assets/wood.jpg");
+    height: 90px;
+    margin: 0 0;
+    border: 3px solid rgb(90, 57, 26);
+    cursor: pointer;
+}
+.container-technology-doorknob{
+    background-image:url("/src/assets/gold.png");
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: auto;
+    border: 1px solid black;
+  
+}
+.container-design-technology-drawers h1{
+    justify-content: center;
+    text-align: center;
+    color:rgb(90, 57, 26);
+    margin: 10px;
+    font-size: 30px;
+    font-family: myFirstFont;
+    margin-top: 2%;
+}
+.container-new-drawers{
+    margin: 3.8% 0 0 0;
+    background-color: antiquewhite;
+    height: 248px;
+    display: flex;
+}
+.container-design-new-drawers{
+    background-image:url("/src/assets/wood.jpg");
+    border: 3px solid rgb(90, 57, 26);
+    width: 50%;
+}
+.container-design-new-drawers-doorknob{
+    background-image:url("/src/assets/gold.png");
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 50px auto auto auto;
+    border: 1px solid black;
+}
+.container-design-new-drawers h1{
+    text-align: center;
+    color:rgb(139, 99, 64);
+    font-size: 40px;
+    font-family: myFirstFont;
+    margin-top: 14%;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url("/src/assets/LostEmerald-lgr3y.otf");
+}
+@font-face {
+    font-family: mySecondFont;
+    src: url("/src/assets/Caribbeantool-GZwO.otf");
+}

@@ -1,0 +1,92 @@
+.container-page-about{
+    display: flex;
+    margin:0 0;
+    background-color: rgba(0, 0, 0, 0.534);
+    height: 680px;
+}
+.container-image-about{
+    margin: 6% 1% 0 1%;
+    position: relative;
+    width: 24%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-image-about img{
+    position: absolute;
+    border-radius: 50%;
+}
+.container-info-post{
+    display: block;
+    margin: 6% 0;
+    width: 65%;
+}
+.container-btns{
+    margin-top: 10%;
+    display: flex;
+    width: 100%;
+}
+.container-btns button{
+    background-color:aliceblue;
+    height: 10px;
+    width:  10px;
+    border-radius: 50%;
+    margin-left: 15px;
+    cursor: pointer;
+    border: none ;
+} 
+.container-text-about{
+    width: 100%;
+    padding: 0;
+    color: aliceblue;    
+    text-align: left;
+    overflow: hidden;
+    position: relative;
+    margin: 0 1%;
+}
+.container-gif{
+    margin-top: 51px;
+    position: absolute;
+    margin-bottom: 0; 
+    margin-left: 3%;
+}
+.raven{
+    margin: 0 1;
+    padding: 0;
+}
+.container-text-about h1{
+    margin-top: 80px;
+    margin-bottom: 0;
+    font-size: 50px;
+    font-family: mySecondFont;
+    
+}
+
+.split-bar{
+    height: 3px;
+    background-color: aliceblue;
+    width: 100%;
+    margin-top: 1%;
+}
+.container-text-about p{
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: myFirstFont;
+}
+
+ellipse,
+circle,
+rect,
+line {
+  stroke-width: 9px;
+  stroke-linecap: round;
+  fill: transparent;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url("/src/assets/LostEmerald-lgr3y.otf");
+}
+@font-face {
+    font-family: mySecondFont;
+    src: url("/src/assets/Caribbeantool-GZwO.otf");
+}

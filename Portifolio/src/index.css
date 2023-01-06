@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  background-color: black;
+  place-items: center;
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

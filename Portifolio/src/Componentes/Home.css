@@ -1,0 +1,47 @@
+.container-home{
+    margin: 15% 10%;
+    text-align: center;
+    color: aliceblue;
+}
+
+.container-home h1{
+    font-size: 60px;
+    margin-bottom: -15px;
+    font-family: mySecondFont;
+}
+.container-home p{
+    font-weight: 200;
+    font-size: 30px;
+    font-family: myFirstFont;
+    
+}
+
+.container-home button{
+    font-size: 20px;
+    color: aliceblue;
+    background-color: rgb(46, 46, 46);
+    border: transparent;
+    border-radius: 5px;
+    margin-top: 100px;
+    padding: 10px 10px;
+    transition: 0.5s;
+    font-family: myFirstFont;
+}
+.container-home button:hover{
+    background-color:rgb(240, 206, 56);
+    color: #444;
+    
+}
+.container-home a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url("/src/assets/LostEmerald-lgr3y.otf");
+}
+@font-face {
+    font-family: mySecondFont;
+    src: url("/src/assets/Caribbeantool-GZwO.otf");
+}
